@@ -1,0 +1,98 @@
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('13.jpeg');
+  width: 1920px;
+  height: 1080px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+.cont{
+	position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.checked {
+    color: #ff5500;
+}
+.skill_align{
+	text-align:left;
+}
+.star{
+	text-align:right;
+}
+.img-circle {
+    border-radius: 50%;
+	overflow: hidden; width: 150px; height: 150px;
+	display:inline-block;
+    margin-left:auto; 
+    margin-right:auto;
+	border-style: groove;
+    border-width: 3px;
+}
+.Top-Right{
+    margin:auto; 
+	overflow: hidden;
+}
+.Date{
+	color: #ff5500;
+	font-size:11px;
+}
+.school{
+	margin-top:2px;
+	margin-bottom:4px;
+}
+.sname{
+	margin-bottom:2px;
+	font-size:13px;
+}
+.top-content{
+	margin-bottom:16px;
+}
+.col-sm-6{
+	
+}
+.col-sm-4{
+	padding-top: 15px;
+    padding-left: 20px;
+	padding-bottom:15px;
+	overflow:hidden;
+	margin-bottom:0px;
+}
+.button{
+	height: 15px;
+	width: 15px;
+	margin-left:1px;
+}
+.cont{}
+.col-sm-12{
+	border-bottom: 2px solid #ff5500;
+}
+.indent{
+	padding-left:20px;
+	line-height: 1.75;
+}
+
+.list-horizontal li{
+	display: inline;  
+	background-image: url(http://i.imgur.com/qWICm4M.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 .4em;
+    padding-left: .6em;
+}
+
+.name{
+	padding-top:0px;
+	margin-top:0px;
+}
